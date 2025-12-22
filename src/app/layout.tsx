@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <nav className="flex justify-center gap-5 p-4 bg-pink-600 text-white shadow-md">
+        <nav className="flex justify-center gap-5 p-4 bg-blue-800 text-white shadow-md">
           <Link href="/" className="font-bold hover:text-black transition">
             Home
           </Link>
