@@ -1,5 +1,5 @@
 import "./globals.css";
-import Link from "next/link";
+import { Navbar } from "@/components/Navbar";
 
 export const metadata = {
   title: "My Portfolio",
@@ -9,24 +9,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <nav className="flex justify-center gap-5 p-4 bg-blue-800 text-white shadow-md">
-          <Link href="/" className="font-bold hover:text-black transition">
-            Home
-          </Link>
-          <Link
-            href="/Products"
-            className="font-bold hover:text-black transition"
-          >
-            Products
-          </Link>
-          <Link
-            href="/About/Socials"
-            className="font-bold hover:text-black transition"
-          >
-            About
-          </Link>
-
-        </nav>
+        <Navbar />
         <main>{children}</main>
       </body>
     </html>

@@ -3,7 +3,7 @@ import React from 'react'
 async function page({params}) {
     const {vid} = await params;
   return (
-    <div>Vegitable Item {vid}</div>
+    <div>Vegitable Shop Location in - {vid}</div>
   )
 }
 
